@@ -1,0 +1,11 @@
+name: tnbc-obesity-expression
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.4
+  - bioconductor-edger
+  - bioconductor-limma
+  - r-ggplot2
+  - r-gplots
+  - r-rcolorbrewer

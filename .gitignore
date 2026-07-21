@@ -1,0 +1,44 @@
+# R session and IDE files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded GEO data and derived metadata
+data/
+raw_data/
+input/
+metadata/
+clinical/
+GSE*/
+*.csv
+*.tsv
+*.txt
+*.rdata
+*.RData
+*.rds
+*.RDS
+
+# Generated outputs
+result/
+results/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Manuscripts and reports
+manuscript/
+reports/
+*.docx
+*.pdf
+*.html
+*.nb.html
